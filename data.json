@@ -90,8 +90,8 @@
   		"thumbnail_image": "https://images.foody.vn/res/g94/936274/prof/s576x330/foody-upload-api-foody-mobile-10-190718112033.jpg",
   		"detail_image": "https://tnikingcoffee.vn/images/menu/img-item-1.jpg?v=2",
   		"description": "Lightly roasted coffee that's soft, mellow and flavorful. Easy-drinking on its own and delicious with milk, sugar or flavored with vanilla, caramel or hazelnut.",
-      "sale":"",
-      "star":"",
+      "sale":4.00,
+      "star":3,
   		"price": 1.00
     },
   	{
@@ -101,8 +101,8 @@
   		"thumbnail_image": "https://cdn.tgdd.vn/Files/2020/05/09/1254457/tim-hieu-ve-king-coffee-vi-vua-moi-trong-de-che-ca-phe-co-nhung-san-pham-nao-202005091050347002.jpg",
   		"detail_image": "http://hopamchuan.com/node/get_artist_image/bo_sua_ca_phe",
   		"description": "A one-to-one mix of fresh brewed coffee and steamed milk add up to one distinctly delicious coffee drink.",
-      "sale":"",
-      "star":"",
+      "sale":5.00,
+      "star":2,
   		"price": 1.00
   	},
   	{
@@ -112,8 +112,8 @@
   		"thumbnail_image": "https://ongbi.vn/wp-content/uploads/2020/04/2-Ca-phe-sua-da-dam-da-beo-thom-va-hap-dan.jpg",
   		"detail_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_l1sQIVVYLw66JVoaa_zPM1fJ2g7XiRi5h75GjJ9XrOs-otnfF4jHK-0_TjGANhKp9J0&usqp=CAU",
   		"description": "Our signature medium roasted coffee with a smooth, balanced and rich flavor, minus the caffeine.",
-      "sale":"",
-      "star":"",
+      "sale":6.00,
+      "star":3,
   		"price": 1.00
   	},
   	{
@@ -123,8 +123,8 @@
   		"thumbnail_image": "https://www.wheretovietnam.com/wp-content/uploads/cache/images/cach-pha-ca-phe-sua-da-viet-nam/cach-pha-ca-phe-sua-da-viet-nam-375971795.jpg",
   		"detail_image": "http://startupcoffee.vn/upload/images/ca-phe-sua-da-kieu-Viey-duoc-ra-doi-tu-lau%201.jpg",
   		"description": "This full-bodied dark roast coffee has the bold, robust flavors to showcase our roasting and blending artistry.",
-      "sale":"",
-      "star":"",
+      "sale":4.00,
+      "star":5,
   		"price": 1.00
   	},
   	{
@@ -134,8 +134,8 @@
   		"thumbnail_image": "https://media.foody.vn/res/g13/122571/prof/s650x400/foody-mobile-hmb-ca-phe-jpg-900-635603708441842225.jpg",
   		"detail_image": "https://pinchofyum.com/wp-content/uploads/Cashew-Coffee-Recipe.jpg",
   		"description": "Our small-batch cold brew—slow-steeped for a super smooth taste—gets even better. We're infusing it with nitrogen for a naturally sweet flavor and cascading, velvety crema. Perfection is served.",
-      "sale":"",
-      "star":"",
+      "sale":6.00,
+      "star":4,
   		"price": 1.00
   	},
   	{
@@ -145,8 +145,8 @@
   		"thumbnail_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQtA7IDZ98P1ZG_WxqvQMLsEUE_YB0CNivqlEJqN_QH2V-3qoxunuyG4PnG57oa8LE9es&usqp=CAU",
   		"detail_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaRhRxmLtU846Ab9tBPpoSSic_izUObdUb2cQwOPAg5_92xdvyCyp2DCT1ahcrk2av-zk&usqp=CAU",
   		"description": "Served cold, straight from the tap, our Nitro Cold Brew is topped with a float of house-made vanilla sweet cream. The result is a subtly-sweet cascade of velvety coffee that is more sippable than ever.",
-      "sale":"",
-      "star":"",
+      "sale":7.00,
+      "star":3,
   		"price": 1.00
   	},
   	{
@@ -156,8 +156,8 @@
   		"thumbnail_image": "https://image.bnews.vn/MediaUpload/Org/2021/01/23/the-coffee-house4.jpg",
   		"detail_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjG3WfuCJCuSXiPb4TzpuEnnT4d6lumAQcpB8rcNgg4zz5hAqO1YYv7et-tl4ItKCyYY8&usqp=CAU",
   		"description": "We'll bring the coconut, you bring a beach state of mind... Refreshing and balanced Nariño 70 Cold Brew is sweetened with flavors of toasted coconut and honey, then finished with a float of coconutmilk.",
-      "sale":"",
-      "star":"",
+      "sale":8.00,
+      "star":5,
   		"price": 1.00
   	},
   	{
@@ -167,8 +167,8 @@
   		"thumbnail_image": "https://kenh14cdn.com/2019/2/18/haamyyy-15504725659262015044998.jpg",
   		"detail_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsnMIwFJ2w-88LBKCjNiXzLdB2e29t5ikrOw&usqp=CAU",
   		"description": "Just before serving, our slow-steeped custom blend Nariño 70 Cold Brew is topped with a delicate float of house-made vanilla sweet cream that cascades throughout the cup.",
-      "sale":"",
-      "star":"",
+      "sale":10.00,
+      "star":4,
   		"price": 1.00
   	}
   ],
