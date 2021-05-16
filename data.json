@@ -4,6 +4,7 @@
       "id": 1,
       "name": "Alexander Karev",  
       "email": "mai.tran22@student.passerellesnumeriques.org",
+      "user": "mai.tran22@gmail.com",
       "password": "12345",
       "phone": 1234245,
       "location": "Nong Son - Quang Nam",
@@ -12,6 +13,7 @@
       "id": 2,
       "name": "Jonathan Johnson",
       "email": "jonathan@sapientrazorfish.com",
+      "user":"jonathan@gmail.com",
       "password": "testpassword",
       "bio": "Born in Atlanta",
       "location": "Atlanta, GA"
