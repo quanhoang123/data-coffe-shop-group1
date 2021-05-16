@@ -1,216 +1,190 @@
 {
-  "welcome": [
-    {
-      "routes": {
-        "users": {
-          "all": "/users",
-          "single": "/users/:id" 
-        },
-        "categories": {
-          "all": "/categories",
-          "single": "/categories/:id"
-        },
-        "products": {
-          "all": "/categories/:categories_id/products",
-          "single": "/categories/:categories_id/products/:id"
-        }
-      }
-    }
-  ],
   "users": [
     {
       "id": 1,
-      "firstName": "Mai",
-      "lastName": "Tran Thi Nhu",
-      "addressHome": "Nong Son - Quang Nam",
+      "name": "Alexander Karev",  
       "email": "mai.tran22@student.passerellesnumeriques.org",
       "password": "12345",
       "phone": 1234245,
-      "credit_card_number": "",
-      "credit_card_cvv": "",
-      "credit_card_zip": "",
-      "credit_card_expiration": ""
+      "location": "Nong Son - Quang Nam",
     },
     {
       "id": 2,
-      "firstName": "Mai",
-      "lastName": "Tran Thi Nhu",
-      "addressHome": "Nong Son - Quang Nam",
-      "email": "mai.tran22@student.passerellesnumeriques.org",
-      "password": "12345",
-      "phone": 1234245,
-      "credit_card_number": "5555-000-0009",
-      "credit_card_cvv": "343",
-      "credit_card_zip": "30332",
-      "credit_card_expiration": "02/21"
+      "name": "Jonathan Johnson",
+      "email": "jonathan@sapientrazorfish.com",
+      "password": "testpassword",
+      "bio": "Born in Atlanta",
+      "location": "Atlanta, GA"
     }
   ],
+
   "categories": [
     {
       "id": 1,
-      "name": "Coffee",
-      "detail_image": "https://images.foody.vn/res/g94/936274/prof/s576x330/foody-upload-api-foody-mobile-10-190718112033.jpg",
-      "title": "The Science of Delicious.",
-      "subtitle": "Amazing coffees from around the world!"
+      "name": "Milk Tae",
+      "detail_image": "https://thecoffeevn.com/wp-content/uploads/2019/06/H%E1%BB%93ng-tr%C3%A0-S%E1%BB%AFa.png"
     },
     {
       "id": 2,
-      "name": "Espresso",
-      "detail_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt_qeh6VUrt6JNQZwczouSlY9Cx9-0UqXThlDPcjgJl0Zu6oCxSZNQy9aHJ8TwYDGZwno&usqp=CAU",
-      "title": "Hand Picked for You",
-      "subtitle": "Specially selected by our Experts, pure in flavor, just for you."
+      "name": "Coffee",
+      "detail_image": "http://list.vn/wp-content/uploads/2021/02/171026-better-coffee-boost-se-329p_67dfb6820f7d3898b5486975903c2e51.fit-1240w.jpg"
     },
     {
       "id": 3,
-      "name": "Iced Coffee",
-      "detail_image": "https://media.foody.vn/res/g77/767178/prof/s/foody-upload-api-foody-mobile-da-nang-danh-gia-cof-180807114621.jpg",
-      "title": "Bring the Cool Home",
-      "subtitle": "All the benefits of coffee, the refreshing cool of ice."
+      "name": "Tea",
+      "detail_image": "https://haitratancuong.com/blog/wp-content/uploads/2020/12/tra-english-breakfast-tea.jpg"
     },
     {
       "id": 4,
-      "name": "Iced Tea",
-      "detail_image": "https://i.pinimg.com/originals/59/a7/b1/59a7b1381133fec921ebc698cf16bfcd.jpg",
-      "title": "Sweet or Not",
-      "subtitle": "Our homemade iced tea to help you through the day."
-    },
-    {
-      "id": 5,
-      "name": "Smoothies",
-      "detail_image": "https://media.foody.vn/res/g96/953548/prof/s/foody-upload-api-foody-mobile-cover-s-coffee-190906133940.jpg",
-      "title": "A Refreshing Taste",
-      "subtitle": "Chocolate or Strawberry - the choice is yours."
+      "name": "Smoothie",
+      "detail_image": "https://www.liveeatlearn.com/wp-content/uploads/2020/09/how-to-make-smoothies-vert.jpg"
     }
   ],
+
   "products": [
   	{
   		"id": 1,
       "categories": 1,
   		"name": "Blonde Roast",
-  		"thumbnail_image": "https://images.foody.vn/res/g94/936274/prof/s576x330/foody-upload-api-foody-mobile-10-190718112033.jpg",
-  		"detail_image": "https://tnikingcoffee.vn/images/menu/img-item-1.jpg?v=2",
+  		"detail_image": "https://cubes-asia.com/uploads/editer/images/european-specialty-coffee-market-by-pointbleu-design-blog.jpg",
   		"description": "Lightly roasted coffee that's soft, mellow and flavorful. Easy-drinking on its own and delicious with milk, sugar or flavored with vanilla, caramel or hazelnut.",
-      "sale":4.00,
-      "star":3,
-  		"price": 1.00
+  		"price": 10000,    
+      "sale":12000,
+      "star":3
     },
   	{
   		"id": 2,
       "categories": 1,
   		"name": "Caffe Misto",
-  		"thumbnail_image": "https://cdn.tgdd.vn/Files/2020/05/09/1254457/tim-hieu-ve-king-coffee-vi-vua-moi-trong-de-che-ca-phe-co-nhung-san-pham-nao-202005091050347002.jpg",
-  		"detail_image": "http://hopamchuan.com/node/get_artist_image/bo_sua_ca_phe",
+    	"detail_image": "http://list.vn/wp-content/uploads/2021/02/171026-better-coffee-boost-se-329p_67dfb6820f7d3898b5486975903c2e51.fit-1240w.jpg",
   		"description": "A one-to-one mix of fresh brewed coffee and steamed milk add up to one distinctly delicious coffee drink.",
-      "sale":5.00,
-      "star":2,
-  		"price": 1.00
+  		"price": 12000,
+      "sale":15000,
+      "star":1
   	},
   	{
   		"id": 3,
       "categories": 1,
   		"name": "Decaf Roast",
-  		"thumbnail_image": "https://ongbi.vn/wp-content/uploads/2020/04/2-Ca-phe-sua-da-dam-da-beo-thom-va-hap-dan.jpg",
-  		"detail_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_l1sQIVVYLw66JVoaa_zPM1fJ2g7XiRi5h75GjJ9XrOs-otnfF4jHK-0_TjGANhKp9J0&usqp=CAU",
+  		"detail_image": "https://images.foody.vn/res/g94/936274/prof/s576x330/foody-upload-api-foody-mobile-10-190718112033.jpg",
   		"description": "Our signature medium roasted coffee with a smooth, balanced and rich flavor, minus the caffeine.",
-      "sale":6.00,
-      "star":3,
-  		"price": 1.00
+  		"price": 20000,
+      "sale":30000,
+      "star":2
   	},
   	{
   		"id": 4,
       "categories": 1,
   		"name": "Featured Dark Roast",
-  		"thumbnail_image": "https://www.wheretovietnam.com/wp-content/uploads/cache/images/cach-pha-ca-phe-sua-da-viet-nam/cach-pha-ca-phe-sua-da-viet-nam-375971795.jpg",
-  		"detail_image": "http://startupcoffee.vn/upload/images/ca-phe-sua-da-kieu-Viey-duoc-ra-doi-tu-lau%201.jpg",
+  		"detail_image": "https://cdn.tgdd.vn/Files/2020/05/09/1254457/tim-hieu-ve-king-coffee-vi-vua-moi-trong-de-che-ca-phe-co-nhung-san-pham-nao-202005091050347002.jpg",
   		"description": "This full-bodied dark roast coffee has the bold, robust flavors to showcase our roasting and blending artistry.",
-      "sale":4.00,
-      "star":5,
-  		"price": 1.00
+  		"price": 35000,
+      "sale":42000,
+      "star":5
   	},
   	{
   		"id": 5,
       "categories": 1,
   		"name": "Nitro Cold Brew",
-  		"thumbnail_image": "https://media.foody.vn/res/g13/122571/prof/s650x400/foody-mobile-hmb-ca-phe-jpg-900-635603708441842225.jpg",
-  		"detail_image": "https://pinchofyum.com/wp-content/uploads/Cashew-Coffee-Recipe.jpg",
+  		"detail_image": "https://d1cavipgdpnjin.cloudfront.net/wp-content/uploads/introduction-to-coffee-saigon-coffee-acadamy-1.jpg",
   		"description": "Our small-batch cold brew—slow-steeped for a super smooth taste—gets even better. We're infusing it with nitrogen for a naturally sweet flavor and cascading, velvety crema. Perfection is served.",
-      "sale":6.00,
-      "star":4,
-  		"price": 1.00
-  	},
-  	{
-  		"id": 5,
-      "categories": 1,
-  		"name": "Nitro Cold Brew with Sweet Cream",
-  		"thumbnail_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQtA7IDZ98P1ZG_WxqvQMLsEUE_YB0CNivqlEJqN_QH2V-3qoxunuyG4PnG57oa8LE9es&usqp=CAU",
-  		"detail_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaRhRxmLtU846Ab9tBPpoSSic_izUObdUb2cQwOPAg5_92xdvyCyp2DCT1ahcrk2av-zk&usqp=CAU",
-  		"description": "Served cold, straight from the tap, our Nitro Cold Brew is topped with a float of house-made vanilla sweet cream. The result is a subtly-sweet cascade of velvety coffee that is more sippable than ever.",
-      "sale":7.00,
-      "star":3,
-  		"price": 1.00
+  		"price": 15000,
+      "sale":20000,
+      "star":3
   	},
   	{
   		"id": 6,
       "categories": 1,
-  		"name": "Toasted Coconut Cold Brew",
-  		"thumbnail_image": "https://image.bnews.vn/MediaUpload/Org/2021/01/23/the-coffee-house4.jpg",
-  		"detail_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjG3WfuCJCuSXiPb4TzpuEnnT4d6lumAQcpB8rcNgg4zz5hAqO1YYv7et-tl4ItKCyYY8&usqp=CAU",
-  		"description": "We'll bring the coconut, you bring a beach state of mind... Refreshing and balanced Nariño 70 Cold Brew is sweetened with flavors of toasted coconut and honey, then finished with a float of coconutmilk.",
-      "sale":8.00,
-      "star":5,
-  		"price": 1.00
-  	},
-  	{
-  		"id": 7,
-      "categories": 1,
-  		"name": "Vanilla Sweet Cream Cold Brew",
-  		"thumbnail_image": "https://kenh14cdn.com/2019/2/18/haamyyy-15504725659262015044998.jpg",
-  		"detail_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsnMIwFJ2w-88LBKCjNiXzLdB2e29t5ikrOw&usqp=CAU",
-  		"description": "Just before serving, our slow-steeped custom blend Nariño 70 Cold Brew is topped with a delicate float of house-made vanilla sweet cream that cascades throughout the cup.",
-      "sale":10.00,
-      "star":4,
-  		"price": 1.00
-  	}
+  		"name": "Nitro Cold Brew with Sweet Cream",
+  		"detail_image": "https://aeonmall-long-bien.com.vn/wp-content/uploads/2021/01/aeon-mall-latte-nong--750x468.jpg",
+  		"description": "Served cold, straight from the tap, our Nitro Cold Brew is topped with a float of house-made vanilla sweet cream. The result is a subtly-sweet cascade of velvety coffee that is more sippable than ever.",
+  		"price": 12000,
+      "sale":18000,
+      "star":5
+    }
   ],
+
+  "employees": [
+    {
+      "id": 1,
+      "fristName": "Huyen",
+      "lastName": "Nguyen Thi Thanh",
+      "salary": 3500000,
+      "numberPhone": "0869963501",
+      "email": "huyen.thanhcuteHanoi@gmail.com"
+    }
+  ],
+
+  "bills": [
+    {
+      "id": 1,
+      "userName":"Bui Duc Anh",
+      "list":[
+        {
+          "id":1,
+          "name": "Caffe Misto"
+        },
+        {
+          "id":2,
+          "name": "Vanilla Sweet Cream Cold Brew"
+        }
+      ],
+      "total": 40000,
+      "payment": "COD"
+    }
+  ],
+
   "orders": [
     {
       "id": 1,
       "userName": "Nguyen Ngoc Lan Trinh",
+      "quantity":2,
       "drink":[
         {
-          "name": "Caffe Misto"
+          "id":1,
+          "name": "Caffe Misto",
+          "quantity":2
         },
         {
-          "name": "Vanilla Sweet Cream Cold Brew"
+          "id":2,
+          "name": "Vanilla Sweet Cream Cold Brew",
+          "quantity":2
         }
       ],
       "reminder": "",
       "shiper": "Tran Van Phat",
-      "price": "100000"
+      "time": "2021-04-05",
+      "total": "100000"
     },
     {
-      "id": 1,
+      "id": 2,
       "userName": "Nguyen Ngoc Lan Trinh",
       "drink":[
         {
-          "name": "Caffe Misto"
+          "id":1,
+          "name": "Caffe Misto",
+          "quantity":2
         },
         {
-          "name": "Vanilla Sweet Cream Cold Brew"
+          "id":2,
+          "name": "Vanilla Sweet Cream Cold Brew",
+          "quantity":2
         }
       ],
       "reminder": "",
       "time": "2021-04-05",
       "shiper": "Nguyen Hong Quan",
-      "price": "100000"
+      "total": "100000"
     }
   ],
+
   "admin":[
     {
       "username": "admin",
       "password": "12345"
     }
   ],
+
   "shiper":[
     {
       "id": 1,
@@ -226,5 +200,24 @@
       "bienSoXe": "ABC1091",
       "status": true
     }
+  ],
+
+  "coffeeShop":[
+    {
+      "nameShop": "CUTEST DAY",
+      "salaryShiper": 5000000,
+      "gmail": "duong.a22@student.passerellesnumeriques.org",
+      "numberphone": "0869963501",
+      "address": "101B Le Huu Trac - Sai Gon - Danang"
+    }
+  ],
+
+  "nofitication":[
+    {
+      "id": 1,
+      "content": "",
+      "time": ""
+    }
   ]
+  
 }
