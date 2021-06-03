@@ -7,8 +7,8 @@
       "password": "testpassword1",
       "phone": 1234245,
       "location": "Atlanta, GA",
-      "checkStatus": true,
-      "status": "unlock",
+      "checkStatus": false,
+      "status": "lock",
       "id": 1
     },
     {
@@ -139,6 +139,15 @@
       "price": 15000,
       "sale": 20000,
       "star": 3
+    },
+    {
+      "categories": "2",
+      "name": "Ice coffee",
+      "detail_image": "",
+      "description": "Lightly roasted coffee that's soft, mellow and flavorful. Easy-drinking on its own and delicious with milk, sugar or flavored with vanilla, caramel or hazelnut.",
+      "sale": "15000",
+      "price": "12000",
+      "id": 6
     }
   ],
   "employees": [
@@ -188,7 +197,8 @@
       ],
       "reminder": "",
       "time": "2021-04-05",
-      "total": "100000"
+      "total": "100000",
+      "status":"Chờ Xác Nhận"
     },
     {
       "id": 2,
@@ -207,7 +217,8 @@
       ],
       "reminder": "",
       "time": "2021-04-05",
-      "total": "100000"
+      "total": "100000",
+      "status":"Đã Giao"
     }
   ],
   "admin": [
