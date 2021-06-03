@@ -198,7 +198,9 @@
       "reminder": "",
       "time": "2021-04-05",
       "total": "100000",
-      "status":"Chờ Xác Nhận"
+      "status":"Chờ Xác Nhận",
+      "checkSt":false
+      
     },
     {
       "id": 2,
@@ -218,7 +220,8 @@
       "reminder": "",
       "time": "2021-04-05",
       "total": "100000",
-      "status":"Đã Giao"
+      "status":"Đã Giao",
+      "checkSt":true
     }
   ],
   "admin": [
