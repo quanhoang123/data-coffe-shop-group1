@@ -6,7 +6,7 @@
       "user": "jonathan@gmail.com",
       "password": "testpassword1",
       "phone": 1234245,
-      "location": "Atlanta, GA",
+      "location":"100b Lê Hữu Trác, Sơn Trà, Đà Nẵng",
       "checkStatus": false,
       "status": "lock",
       "id": 1
@@ -18,7 +18,7 @@
       "user": "Arvid95@gmail.com",
       "password": "testpassword2",
       "phone": 1234245,
-      "location": "Atlanta, GA",
+      "location":"100b Lê Hữu Trác, Sơn Trà, Đà Nẵng",
       "status": "unlock",
       "checkStatus": true
     },
@@ -29,7 +29,7 @@
       "user": "Modesta.Brekke@yahoo.com",
       "password": "testpassword3",
       "phone": 1234245,
-      "location": "Atlanta, GA",
+      "location":"100b Lê Hữu Trác, Sơn Trà, Đà Nẵng",
       "status": "unlock",
       "checkStatus": true
     },
@@ -40,7 +40,7 @@
       "user": "Santina_Jaskolski@hotmail.com",
       "password": "testpassword4",
       "phone": 1234245,
-      "location": "Atlanta, GA",
+      "location":"100b Lê Hữu Trác, Sơn Trà, Đà Nẵng",
       "status": "unlock",
       "checkStatus": true
     },
@@ -51,7 +51,7 @@
       "user": "jonathan@gmail.com5",
       "password": "testpassword",
       "phone": 1234245,
-      "location": "Atlanta, GA",
+      "location":"100b Lê Hữu Trác, Sơn Trà, Đà Nẵng",
       "status": "unlock",
       "checkStatus": true
     },
@@ -62,7 +62,7 @@
       "user": "Allison.Hane87@yahoo.com",
       "password": "testpassword6",
       "phone": 1234245,
-      "location": "Atlanta, GA",
+      "location":"100b Lê Hữu Trác, Sơn Trà, Đà Nẵng",
       "status": "unlock",
       "checkStatus": true
     }
@@ -198,6 +198,7 @@
       "reminder": "",
       "time": "2021-04-05",
       "total": "100000",
+      "location":"100b Lê Hữu Trác, Sơn Trà, Đà Nẵng",
       "status":"Chờ Xác Nhận",
       "checkSt":false
       
@@ -220,6 +221,7 @@
       "reminder": "",
       "time": "2021-04-05",
       "total": "100000",
+      "location":"100b Lê Hữu Trác, Sơn Trà, Đà Nẵng",
       "status":"Đã Giao",
       "checkSt":true
     }
