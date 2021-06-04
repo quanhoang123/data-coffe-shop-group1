@@ -343,7 +343,8 @@
           "name": "Alexander Dương"
         }
       ],
-      "content": "Thật tuyệt vời với những đồ uống tại shop"
+      "content": "Thật tuyệt vời với những đồ uống tại shop",
+      "admin":"Cảm ơn bạn rất nhiều"
     },
     {
       "id": 2,
@@ -353,7 +354,8 @@
           "name": "Luisa Ebert"
         }
       ],
-      "content": "Đồ uống rất ngon và sự tận tình khi giao hàng"
+      "content": "Đồ uống rất ngon và sự tận tình khi giao hàng",
+      "admin":"Cảm ơn bạn đã tin tưởng chúng tôi"
     }
   ]
   
