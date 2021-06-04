@@ -96,7 +96,7 @@
       "name": "Blonde Roast",
       "detail_image": "https://cubes-asia.com/uploads/editer/images/european-specialty-coffee-market-by-pointbleu-design-blog.jpg",
       "description": "Lightly roasted coffee that's soft, mellow and flavorful. ",
-      "price": 10000,
+      "price": 20000,
       "sale": 12000,
       "star": 3
     },
@@ -106,7 +106,7 @@
       "name": "Caffe Misto",
       "detail_image": "http://list.vn/wp-content/uploads/2021/02/171026-better-coffee-boost-se-329p_67dfb6820f7d3898b5486975903c2e51.fit-1240w.jpg",
       "description": "A one-to-one mix of fresh brewed coffee ",
-      "price": 12000,
+      "price": 18000,
       "sale": 15000,
       "star": 1
     },
@@ -116,7 +116,7 @@
       "name": "Decaf Roast",
       "detail_image": "https://images.foody.vn/res/g94/936274/prof/s576x330/foody-upload-api-foody-mobile-10-190718112033.jpg",
       "description": "Our signature medium roasted coffee with a smooth",
-      "price": 20000,
+      "price": 45000,
       "sale": 30000,
       "star": 2
     },
@@ -127,7 +127,7 @@
       "detail_image": "https://cdn.tgdd.vn/Files/2020/05/09/1254457/tim-hieu-ve-king-coffee-vi-vua-moi-trong-de-che-ca-phe-co-nhung-san-pham-nao-202005091050347002.jpg",
       "description": "This full-bodied dark roast coffee has the bold",
       "price": 35000,
-      "sale": 42000,
+      "sale": 15000,
       "star": 5
     },
     {
@@ -136,18 +136,55 @@
       "name": "Nitro Cold Brew",
       "detail_image": "https://d1cavipgdpnjin.cloudfront.net/wp-content/uploads/introduction-to-coffee-saigon-coffee-acadamy-1.jpg",
       "description": "Our small-batch cold brew—slow-steeped for a super smooth taste—gets even better. ",
-      "price": 15000,
+      "price": 40000,
       "sale": 20000,
       "star": 3
     },
     {
+      "id": 6,
       "categories": "2",
       "name": "Ice coffee",
-      "detail_image": "https://d1cavipgdpnjin.cloudfront.net/wp-content/uploads/introduction-to-coffee-saigon-coffee-acadamy-1.jpg",
+      "detail_image": "https://i.pinimg.com/originals/f8/81/ad/f881ad2778cc7d7c88791e14c9419b52.jpg",
+      "description": "Lightly roasted coffee that's soft, mellow and flavorful. Easy-drinking on its own and delicious with milk, sugar or flavored with vanilla, caramel or hazelnut.",   
+      "price": 18000,
+      "sale": 15000
+      
+    },
+    {
+      "categories": "2",
+      "name": "Flower and Books",
+      "detail_image": "https://i.pinimg.com/474x/a6/eb/0f/a6eb0f6fa939bc1f6b33ac6f124f51db.jpg",
       "description": "Lightly roasted coffee that's soft, mellow and flavorful. Easy-drinking on its own and delicious with milk, sugar or flavored with vanilla, caramel or hazelnut.",
-      "sale": "15000",
-      "price": "12000",
-      "id": 6
+      "sale": 30000,
+      "price": 40000,
+      "id": 7
+    },
+    {
+      "categories": "2",
+      "name": "Coffee Đá Xay",
+      "detail_image": "https://i.pinimg.com/originals/2d/0f/3e/2d0f3e73fa853685fda30698f71eb139.jpg",
+      "description": "Lightly roasted coffee that's soft, mellow and flavorful. Easy-drinking on its own and delicious with milk, sugar or flavored with vanilla, caramel or hazelnut.",
+      "sale": 32000,
+      "price": 45000,
+      "id": 8
+    },
+    {
+      "categories": "2",
+      "name": "Coffee Đá Xay",
+      "detail_image": "https://i.pinimg.com/originals/2d/0f/3e/2d0f3e73fa853685fda30698f71eb139.jpg",
+      "description": "Lightly roasted coffee that's soft, mellow and flavorful. Easy-drinking on its own and delicious with milk, sugar or flavored with vanilla, caramel or hazelnut.",
+      "sale": 14000,
+      "price": 36000,
+      "id": 9
+    },
+    {
+      "categories": "2",
+      "name": "Coffee Đá Xay",
+      "detail_image": "https://i.pinimg.com/originals/2d/0f/3e/2d0f3e73fa853685fda30698f71eb139.jpg",
+      "description": "Lightly roasted coffee that's soft, mellow and flavorful. Easy-drinking on its own and delicious with milk, sugar or flavored with vanilla, caramel or hazelnut.",
+      "sale": 36000,
+      "price": 42000,
+      "id": 10
     }
   ],
   "employees": [
@@ -302,17 +339,22 @@
       "id": 1,
       "user": [
         {
-          "id": 1,
-          "name": "Alexander Karev"
+          "id": 2,
+          "name": "Luisa Ebert"
         }
       ],
-      "content": "Do uong rat ngon vaf thu vi"
+      "content": "Thật tuyệt vời với những đồ uống tại shop"
+    },
+    {
+      "id": 2,
+      "user": [
+        {
+          "id": 1,
+          "name": "Alexander Dương"
+        }
+      ],
+      "content": "Đồ uống rất ngon và sự tận tình khi giao hàng"
     }
   ],
-  "uploadfile":[
-    {
-    "selectedFile":""
-    }
-    
-  ]
+  
 }
