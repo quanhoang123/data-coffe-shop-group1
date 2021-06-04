@@ -181,6 +181,7 @@
   "orders": [
     {
       "id": 1,
+      "idUser":2,
       "userName": "Nguyen Ngoc Lan Trinh",
       "quantity": 2,
       "drink": [
@@ -205,7 +206,8 @@
     },
     {
       "id": 2,
-      "userName": "Nguyen Ngoc Lan Trinh",
+      "idUser":2,
+      "userName": "A Viet Duong",
       "drink": [
         {
           "id": 1,
