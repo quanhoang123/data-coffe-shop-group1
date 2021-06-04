@@ -282,7 +282,8 @@
       "salaryShiper": 5000000,
       "gmail": "duong.a22@student.passerellesnumeriques.org",
       "numberphone": "0869963501",
-      "address": "101B Le Huu Trac - Sai Gon - Danang"
+      "address": "101B Le Huu Trac - Sai Gon - Danang",
+      "money": "300000"
     }
   ],
   "nofitication": [
@@ -303,5 +304,11 @@
       ],
       "content": "Do uong rat ngon vaf thu vi"
     }
+  ],
+  "uploadfile":[
+    {
+    "selectedFile":""
+    }
+    
   ]
 }
