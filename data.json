@@ -6,7 +6,7 @@
       "user": "jonathan@gmail.com",
       "password": "testpassword1",
       "phone": 1234245,
-      "location":"100b Lê Hữu Trác, Sơn Trà, Đà Nẵng",
+      "location": "100b Lê Hữu Trác, Sơn Trà, Đà Nẵng",
       "checkStatus": false,
       "status": "lock",
       "id": 1
@@ -18,7 +18,7 @@
       "user": "Arvid95@gmail.com",
       "password": "testpassword2",
       "phone": 1234245,
-      "location":"100b Lê Hữu Trác, Sơn Trà, Đà Nẵng",
+      "location": "100b Lê Hữu Trác, Sơn Trà, Đà Nẵng",
       "status": "unlock",
       "checkStatus": true
     },
@@ -29,7 +29,7 @@
       "user": "Modesta.Brekke@yahoo.com",
       "password": "testpassword3",
       "phone": 1234245,
-      "location":"100b Lê Hữu Trác, Sơn Trà, Đà Nẵng",
+      "location": "100b Lê Hữu Trác, Sơn Trà, Đà Nẵng",
       "status": "unlock",
       "checkStatus": true
     },
@@ -40,7 +40,7 @@
       "user": "Santina_Jaskolski@hotmail.com",
       "password": "testpassword4",
       "phone": 1234245,
-      "location":"100b Lê Hữu Trác, Sơn Trà, Đà Nẵng",
+      "location": "100b Lê Hữu Trác, Sơn Trà, Đà Nẵng",
       "status": "unlock",
       "checkStatus": true
     },
@@ -51,7 +51,7 @@
       "user": "jonathan@gmail.com5",
       "password": "testpassword",
       "phone": 1234245,
-      "location":"100b Lê Hữu Trác, Sơn Trà, Đà Nẵng",
+      "location": "100b Lê Hữu Trác, Sơn Trà, Đà Nẵng",
       "status": "unlock",
       "checkStatus": true
     },
@@ -62,7 +62,7 @@
       "user": "Allison.Hane87@yahoo.com",
       "password": "testpassword6",
       "phone": 1234245,
-      "location":"100b Lê Hữu Trác, Sơn Trà, Đà Nẵng",
+      "location": "100b Lê Hữu Trác, Sơn Trà, Đà Nẵng",
       "status": "unlock",
       "checkStatus": true
     }
@@ -75,7 +75,7 @@
     },
     {
       "id": 2,
-      "name": "Coffee",
+      "name": "Cappuccino",
       "detail_image": "http://list.vn/wp-content/uploads/2021/02/171026-better-coffee-boost-se-329p_67dfb6820f7d3898b5486975903c2e51.fit-1240w.jpg"
     },
     {
@@ -145,10 +145,9 @@
       "categories": "2",
       "name": "Ice coffee",
       "detail_image": "https://i.pinimg.com/originals/f8/81/ad/f881ad2778cc7d7c88791e14c9419b52.jpg",
-      "description": "Lightly roasted coffee that's soft, mellow and flavorful. Easy-drinking on its own and delicious with milk, sugar or flavored with vanilla, caramel or hazelnut.",   
+      "description": "Lightly roasted coffee that's soft, mellow and flavorful. Easy-drinking on its own and delicious with milk, sugar or flavored with vanilla, caramel or hazelnut.",
       "price": 18000,
       "sale": 15000
-      
     },
     {
       "categories": "2",
@@ -161,7 +160,7 @@
     },
     {
       "categories": "2",
-      "name": "Coffee Đá Xay",
+      "name": "Chocalate",
       "detail_image": "https://i.pinimg.com/originals/2d/0f/3e/2d0f3e73fa853685fda30698f71eb139.jpg",
       "description": "Lightly roasted coffee that's soft, mellow and flavorful. Easy-drinking on its own and delicious with milk, sugar or flavored with vanilla, caramel or hazelnut.",
       "sale": 32000,
@@ -170,8 +169,8 @@
     },
     {
       "categories": "2",
-      "name": "Coffee Đá Xay",
-      "detail_image": "https://i.pinimg.com/originals/2d/0f/3e/2d0f3e73fa853685fda30698f71eb139.jpg",
+      "name": "MoCha Coffee",
+      "detail_image": "https://beptruong.edu.vn/wp-content/uploads/2016/02/capuchino.jpg",
       "description": "Lightly roasted coffee that's soft, mellow and flavorful. Easy-drinking on its own and delicious with milk, sugar or flavored with vanilla, caramel or hazelnut.",
       "sale": 14000,
       "price": 36000,
@@ -179,8 +178,8 @@
     },
     {
       "categories": "2",
-      "name": "Coffee Đá Xay",
-      "detail_image": "https://i.pinimg.com/originals/2d/0f/3e/2d0f3e73fa853685fda30698f71eb139.jpg",
+      "name": "Milk Coffee",
+      "detail_image": "https://puriocafe.com/images/stories/blog/280105-tac-dung-cua-cafe-sua-Puriocafe-6.jpg",
       "description": "Lightly roasted coffee that's soft, mellow and flavorful. Easy-drinking on its own and delicious with milk, sugar or flavored with vanilla, caramel or hazelnut.",
       "sale": 36000,
       "price": 42000,
@@ -218,7 +217,7 @@
   "orders": [
     {
       "id": 1,
-      "idUser":2,
+      "idUser": 2,
       "userName": "Nguyen Ngoc Lan Trinh",
       "quantity": 2,
       "drink": [
@@ -236,14 +235,13 @@
       "reminder": "",
       "time": "2021/04/05",
       "total": "100000",
-      "location":"100b Lê Hữu Trác, Sơn Trà, Đà Nẵng",
-      "status":"Chờ Xác Nhận",
-      "checkSt":false
-      
+      "location": "100b Lê Hữu Trác, Sơn Trà, Đà Nẵng",
+      "status": "Chờ Xác Nhận",
+      "checkSt": false
     },
     {
       "id": 2,
-      "idUser":2,
+      "idUser": 2,
       "userName": "A Viet Duong",
       "drink": [
         {
@@ -260,9 +258,178 @@
       "reminder": "",
       "time": "2021/04/05",
       "total": "100000",
-      "location":"100b Lê Hữu Trác, Sơn Trà, Đà Nẵng",
-      "status":"Đã Giao",
-      "checkSt":true
+      "location": "100b Lê Hữu Trác, Sơn Trà, Đà Nẵng",
+      "status": "Đã Giao",
+      "checkSt": true
+    },
+    {
+      "username": "Rylee Terry",
+      "drink": [
+        {
+          "id": 1,
+          "name": "Blonde Roast",
+          "quantity": 1,
+          "detail_image": "https://cubes-asia.com/uploads/editer/images/european-specialty-coffee-market-by-pointbleu-design-blog.jpg",
+          "sale": 12000,
+          "price": 20000
+        }
+      ],
+      "status": "Chờ Xác Nhận",
+      "reminder": "",
+      "total": 20000,
+      "id": 3
+    },
+    {
+      "username": "Rylee Terry",
+      "drink": null,
+      "status": "Chờ Xác Nhận",
+      "reminder": "",
+      "total": 20000,
+      "id": 4
+    },
+    {
+      "username": "Rylee Terry",
+      "drink": null,
+      "status": "Chờ Xác Nhận",
+      "reminder": "",
+      "total": 20000,
+      "id": 5
+    },
+    {
+      "username": "Rylee Terry",
+      "drink": null,
+      "status": "Chờ Xác Nhận",
+      "reminder": "",
+      "total": 20000,
+      "id": 6
+    },
+    {
+      "username": "Rylee Terry",
+      "drink": null,
+      "status": "Chờ Xác Nhận",
+      "reminder": "",
+      "total": 20000,
+      "id": 7
+    },
+    {
+      "username": "Rylee Terry",
+      "drink": null,
+      "status": "Chờ Xác Nhận",
+      "reminder": "",
+      "total": 20000,
+      "id": 8
+    },
+    {
+      "username": "Rylee Terry",
+      "drink": null,
+      "status": "Chờ Xác Nhận",
+      "reminder": "",
+      "total": 20000,
+      "id": 9
+    },
+    {
+      "username": "Rylee Terry",
+      "drink": null,
+      "status": "Chờ Xác Nhận",
+      "reminder": "",
+      "total": 20000,
+      "id": 10
+    },
+    {
+      "username": "Rylee Terry",
+      "drink": null,
+      "status": "Chờ Xác Nhận",
+      "reminder": "",
+      "total": 20000,
+      "id": 11
+    },
+    {
+      "username": "Rylee Terry",
+      "drink": null,
+      "status": "Chờ Xác Nhận",
+      "reminder": "",
+      "total": 20000,
+      "id": 12
+    },
+    {
+      "username": "Rylee Terry",
+      "drink": null,
+      "status": "Chờ Xác Nhận",
+      "reminder": "",
+      "total": 20000,
+      "id": 13
+    },
+    {
+      "username": "Rylee Terry",
+      "drink": null,
+      "status": "Chờ Xác Nhận",
+      "reminder": "",
+      "total": 20000,
+      "id": 14
+    },
+    {
+      "username": "Rylee Terry",
+      "drink": null,
+      "status": "Chờ Xác Nhận",
+      "reminder": "",
+      "total": 20000,
+      "id": 15
+    },
+    {
+      "username": "Rylee Terry",
+      "drink": null,
+      "status": "Chờ Xác Nhận",
+      "reminder": "",
+      "total": 20000,
+      "id": 16
+    },
+    {
+      "username": "Rylee Terry",
+      "drink": null,
+      "status": "Chờ Xác Nhận",
+      "reminder": "",
+      "total": 20000,
+      "id": 17
+    },
+    {
+      "username": "Rylee Terry",
+      "drink": null,
+      "status": "Chờ Xác Nhận",
+      "reminder": "",
+      "total": 20000,
+      "id": 18
+    },
+    {
+      "username": "Rylee Terry",
+      "drink": null,
+      "status": "Chờ Xác Nhận",
+      "reminder": "",
+      "total": 20000,
+      "id": 19
+    },
+    {
+      "username": "Rylee Terry",
+      "drink": null,
+      "status": "Chờ Xác Nhận",
+      "reminder": "",
+      "total": 20000,
+      "id": 20
+    },
+    {
+      "username": "Rylee Terry",
+      "drink": null,
+      "status": "Chờ Xác Nhận",
+      "reminder": "",
+      "total": 20000,
+      "id": 21
+    },
+    {
+      "username": "Rylee Terry",
+      "drink": null,
+      "status": "Chờ Xác Nhận",
+      "reminder": "",
+      "total": 20000,
+      "id": 22
     }
   ],
   "admin": [
@@ -344,8 +511,8 @@
         }
       ],
       "content": "Thật tuyệt vời với những đồ uống tại shop",
-      "admin":"Hoang Trung Quan",
-      "time":"05/04/2021"
+      "admin": "Hoang Trung Quan",
+      "time": "05/04/2021"
     },
     {
       "id": 2,
@@ -356,9 +523,8 @@
         }
       ],
       "content": "Đồ uống rất ngon và sự tận tình khi giao hàng",
-      "admin":"Đặng Thu Sang",
-      "time":"06/05/2021"
+      "admin": "Đặng Thu Sang",
+      "time": "06/05/2021"
     }
   ]
-  
 }
