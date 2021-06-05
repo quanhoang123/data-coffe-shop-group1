@@ -261,23 +261,6 @@
       "location": "100b Lê Hữu Trác, Sơn Trà, Đà Nẵng",
       "status": "Đã Giao",
       "checkSt": true
-    },
-    {
-      "username": "Rylee Terry",
-      "drink": [
-        {
-          "id": 1,
-          "name": "Blonde Roast",
-          "quantity": 1,
-          "detail_image": "https://cubes-asia.com/uploads/editer/images/european-specialty-coffee-market-by-pointbleu-design-blog.jpg",
-          "sale": 12000,
-          "price": 20000
-        }
-      ],
-      "status": "Chờ Xác Nhận",
-      "reminder": "",
-      "total": 20000,
-      "id": 3
     }
   
   ],
